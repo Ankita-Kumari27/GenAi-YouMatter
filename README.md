@@ -22,8 +22,7 @@
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-youmatter.app-C4B5F4?style=for-the-badge&labelColor=2D2350)](https://youmatter.app)
 [![License](https://img.shields.io/badge/License-MIT-93C5FD?style=for-the-badge&labelColor=2D2350)](LICENSE)
-[![Made with Love](https://img.shields.io/badge/Made_with-💙_by_A4E_Team-F4A8C0?style=for-the-badge&labelColor=2D2350)](#team)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-FBBF9A?style=for-the-badge&labelColor=2D2350)](CONTRIBUTING.md)
+[![Welcome](https://img.shields.io/badge/PRs-welcome-FBBF9A?style=for-the-badge&labelColor=2D2350)](CONTRIBUTING.md)
 
 <br/>
 
