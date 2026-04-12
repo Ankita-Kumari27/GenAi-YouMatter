@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 20% 97%;
+    --foreground: 240 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 20% 15%;
+
+    --primary: 252 60% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 60% 92%;
+    --secondary-foreground: 240 20% 20%;
+
+    --muted: 240 15% 93%;
+    --muted-foreground: 240 10% 50%;
+
+    --accent: 340 60% 90%;
+    --accent-foreground: 340 40% 30%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 15% 88%;
+    --input: 240 15% 88%;
+    --ring: 252 60% 55%;
+
+    --radius: 1rem;
+
+    /* YouMatter custom tokens */
+    --lavender: 252 60% 55%;
+    --lavender-light: 252 60% 92%;
+    --lavender-glow: 252 80% 70%;
+    --sky: 210 70% 60%;
+    --sky-light: 210 70% 92%;
+    --blush: 340 60% 70%;
+    --blush-light: 340 60% 92%;
+    --aqua: 175 50% 50%;
+    --aqua-light: 175 50% 92%;
+    --warm: 30 60% 55%;
+    --warm-light: 30 60% 92%;
+    --success: 150 50% 45%;
+    --success-light: 150 50% 92%;
+
+    --glass-bg: 0 0% 100% / 0.6;
+    --glass-border: 0 0% 100% / 0.3;
+    --glass-blur: 16px;
+
+    --sidebar-background: 252 30% 96%;
+    --sidebar-foreground: 240 20% 20%;
+    --sidebar-primary: 252 60% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 252 40% 92%;
+    --sidebar-accent-foreground: 252 30% 25%;
+    --sidebar-border: 252 20% 88%;
+    --sidebar-ring: 252 60% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/60 backdrop-blur-xl border border-white/30 shadow-lg;
+  }
+  .glass-card-strong {
+    @apply bg-white/80 backdrop-blur-2xl border border-white/40 shadow-xl;
+  }
+  .cloud-bg {
+    background:
+      radial-gradient(ellipse 80% 60% at 20% 80%, hsl(252 60% 55% / 0.08) 0%, transparent 70%),
+      radial-gradient(ellipse 60% 50% at 80% 20%, hsl(210 70% 60% / 0.08) 0%, transparent 70%),
+      radial-gradient(ellipse 50% 40% at 50% 50%, hsl(340 60% 70% / 0.05) 0%, transparent 70%),
+      hsl(var(--background));
+  }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[hsl(var(--lavender))] via-[hsl(var(--sky))] to-[hsl(var(--blush))];
+  }
+  .btn-pill {
+    @apply rounded-full;
+  }
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      hsl(var(--lavender-light)) 0%,
+      hsl(var(--sky-light)) 50%,
+      hsl(var(--lavender-light)) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes breathe-circle {
+  0%, 100% { transform: scale(0.6); opacity: 0.6; }
+  50% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
