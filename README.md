@@ -4,12 +4,12 @@
 <br/>
 
 <!-- Logo placeholder — replace src with your actual logo -->
-<img src="<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/f9fe0b88-acfa-4b7a-a06d-352ca0949600" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/f9fe0b88-acfa-4b7a-a06d-352ca0949600" />
 
 
 <br/><br/>
 
-# YouMatter 💙
+# YouMatter 🩷
 
 ### *Your AI companion that cares.*
 
