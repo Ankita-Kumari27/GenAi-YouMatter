@@ -3,7 +3,7 @@
 <br/>
 
 <!-- Logo placeholder — replace src with your actual logo -->
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/cdc943a9-9e4e-48a0-aee4-b11e50b3afce" />
+<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/cdc943a9-9e4e-48a0-aee4-b11e50b3afce" />
 
 <br/><br/>
 
@@ -20,8 +20,8 @@
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-youmatter.app-C4B5F4?style=for-the-badge&labelColor=2D2350)](https://youmatter.app)
 [![License](https://img.shields.io/badge/License-MIT-93C5FD?style=for-the-badge&labelColor=2D2350)](LICENSE)
-[![Made with Love](https://img.shields.io/badge/Made_with-💙_by_A4E_Team-F4A8C0?style=for-the-badge&labelColor=2D2350)](#team)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-FBBF9A?style=for-the-badge&labelColor=2D2350)](CONTRIBUTING.md)
+
+[![Welcome](https://img.shields.io/badge/PRs-welcome-FBBF9A?style=for-the-badge&labelColor=2D2350)](CONTRIBUTING.md)
 
 <br/>
 
