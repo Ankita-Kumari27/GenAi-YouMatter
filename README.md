@@ -3,7 +3,7 @@
 <br/>
 
 <!-- Logo placeholder — replace src with your actual logo -->
-<img src="public/logo.png" alt="YouMatter Logo" width="180" />
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/cdc943a9-9e4e-48a0-aee4-b11e50b3afce" />
 
 <br/><br/>
 
@@ -362,7 +362,7 @@ Week 4  ░░░░░░░░░░░░████████  Ship 🚀
 
 ## 👥 Team
 
-Built with 💙 by 7 pre-final year CSE-AIML students from **[Your College Name]** as part of the **A4E (AI for Everyone)** initiative.
+Built with 💙 by 7 pre-final year CSE-AIML students from **Haldia Istitute of Technology** as part of the **A4E (AI for Everyone)** initiative.
 
 | Role | Responsibility |
 |---|---|
