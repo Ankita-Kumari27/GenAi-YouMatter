@@ -296,7 +296,7 @@ Week 4  ░░░░░░░░░░░░████████  Ship 🚀
 
 ## 👥 Team
 
-Built with 💙 by 7 pre-final year CSE-AIML students from **[Your College Name]** as part of the **A4E (AI for Everyone)** initiative.
+Built with 💙 by 7 pre-final year CSE-AIML students from **Haldia Institute of Technology** as part of the **A4E (AI for Everyone)** initiative.
 
 | Role | Responsibility |
 |---|---|
