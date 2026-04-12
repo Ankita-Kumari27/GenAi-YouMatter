@@ -139,7 +139,7 @@ Shapes ────────────────────────�
 
 | Layer | Technology | Why |
 |---|---|---|
-| **Frontend** | Next.js 14 (App Router) + TypeScript | SSR, type safety, production-ready |
+| **Frontend** | React js | SSR, type safety, production-ready |
 | **Styling** | Tailwind CSS | Utility-first, rapid UI, responsive |
 | **Auth** | Supabase Auth (Magic Link) | No passwords, frictionless onboarding |
 | **Database** | Supabase PostgreSQL + RLS | Free tier, row-level security by default |
