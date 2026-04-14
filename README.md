@@ -3,7 +3,7 @@
 <br/>
 
 <!-- Logo placeholder — replace src with your actual logo -->
-<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/cdc943a9-9e4e-48a0-aee4-b11e50b3afce" />
+<img width="125" height="125" alt="image" src="https://github.com/user-attachments/assets/cdc943a9-9e4e-48a0-aee4-b11e50b3afce" />
 
 <br/><br/>
 
