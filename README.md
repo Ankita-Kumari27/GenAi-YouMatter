@@ -370,4 +370,3 @@ Made with 💙 by the A4E Team
 [![Follow us](https://img.shields.io/twitter/follow/YouMatterApp?style=social)](https://twitter.com/YouMatterApp)
 
 </div>
->>>>>>> df057bcde2db0982b1ed8cadfa32afb2b404a281
