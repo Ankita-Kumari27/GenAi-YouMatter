@@ -356,17 +356,4 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 
 ---
 
-<div align="center">
 
-<br/>
-
-Made with 💙 by the A4E Team
-
-*"Taking care of your mind is the bravest thing you can do."*
-
-<br/>
-
-[![Star this repo](https://img.shields.io/github/stars/a4e-team/youmatter?style=social)](https://github.com/a4e-team/youmatter)
-[![Follow us](https://img.shields.io/twitter/follow/YouMatterApp?style=social)](https://twitter.com/YouMatterApp)
-
-</div>
