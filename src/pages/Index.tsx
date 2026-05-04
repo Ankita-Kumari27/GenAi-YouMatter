@@ -6,6 +6,7 @@ import Testimonials from "@/components/landing/Testimonials";
 import CtaBanner from "@/components/landing/CtaBanner";
 import Footer from "@/components/landing/Footer";
 
+
 const Index = () => (
   <div className="min-h-screen">
     <Navbar />
