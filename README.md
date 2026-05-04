@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # GenAi-YouMatter
 <div align="center">
 
