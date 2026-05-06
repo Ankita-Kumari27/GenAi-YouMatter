@@ -200,6 +200,3 @@ Privacy-first. Always.
 ```bash
 git clone https://github.com/a4e-team/youmatter.git
 cd youmatter
-
-Privacy-first. Always.
-
