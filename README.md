@@ -1,356 +1,256 @@
+# YouMatter 💙  
+### Your AI Companion That Cares
 
-# GenAi-YouMatter
-<div align="center">
+🌐 **Live App:** https://you-matter-frontend-six.vercel.app/  
+🚀 Built by A4E (AI for Everyone) Initiative  
 
-<br/>
-
-<!-- Logo placeholder — replace src with your actual logo -->
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/f9fe0b88-acfa-4b7a-a06d-352ca0949600" />
-
-
-<br/><br/>
-
-# YouMatter 🩷
-
-### *Your AI companion that cares.*
-
-<p align="center">
-  A compassionate AI-powered mental health companion and lab report interpreter —<br/>
-  built to make wellbeing support accessible to everyone, everywhere, always.
-</p>
-
-<br/>
-
-
-<br/>
-
-![YouMatter Banner](https://placehold.co/900x300/C4B5F4/2D2350?text=YouMatter+%E2%80%94+Your+AI+Companion+That+Cares&font=playfair-display)
-
-</div>
+A compassionate AI-powered mental health companion and lab report interpreter —  
+designed to make emotional support and healthcare understanding accessible to everyone, everywhere, always.
 
 ---
 
 ## 🌸 What is YouMatter?
 
-**YouMatter** is a free, judgment-free AI mental health companion and health report interpreter built for everyone — especially students, young adults, and anyone navigating the maze of modern healthcare without a guide.
+YouMatter is a free, judgment-free AI mental health companion and medical lab report interpreter built especially for:
+
+- Students  
+- Young adults  
+- First-time healthcare navigators  
+- Anyone feeling overwhelmed by modern healthcare  
 
 We believe two things deeply:
 
-> **1. Mental health support should never be a luxury.**
-> **2. No one should feel lost looking at their own lab report.**
+> 1️⃣ Mental health support should never be a luxury.  
+> 2️⃣ No one should feel lost reading their own lab report.
 
-YouMatter bridges both gaps with a warm, human-first AI experience powered by cutting-edge language models — wrapped in a design that feels like a hug, not a hospital.
-
----
-
-## ✨ Features
-
-<table>
-<tr>
-<td width="50%">
-
-### 💬 Talk to Aasha
-Your 24/7 AI companion trained in CBT and mindfulness principles. Listens without judgment, validates your feelings, and guides you toward calm — at 3am or 3pm.
-
-</td>
-<td width="50%">
-
-### 📋 Lab Report Interpreter
-Upload any PDF blood test. Our AI reads 50+ parameters, flags what's low/high/critical, and explains everything in plain language you actually understand.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🌬️ Guided Breathing
-Box breathing, 4-7-8, Deep Calm — animated exercises that ground your nervous system in minutes. No app downloads. Just breathe.
-
-</td>
-<td width="50%">
-
-### 📓 Mood Journal
-Log your feelings daily. Watch patterns emerge. Celebrate your growth. Every entry is private, encrypted, and yours alone.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📊 Mood Tracker
-Visualize your emotional journey over days, weeks, and months. Aasha notices your patterns and gently checks in when you need it most.
-
-</td>
-<td width="50%">
-
-### 🆘 Crisis Support
-Built-in crisis detection. Instant access to iCall, Vandrevala Foundation, and Snehi helplines. You are never alone — we make sure of it.
-
-</td>
-</tr>
-</table>
+YouMatter bridges both gaps with a warm, human-first AI experience powered by advanced language models — wrapped in a design that feels like a hug, not a hospital.
 
 ---
 
-## 🖥️ Screenshots
+# ✨ Features
 
-<div align="center">
-
-| Landing Page | Chat with Aasha | Lab Report |
-|:---:|:---:|:---:|
-| ![Landing](https://placehold.co/280x180/F5EEFF/6B5CA5?text=Landing+Page) | ![Chat](https://placehold.co/280x180/EBF4FF/2D2350?text=Chat+Interface) | ![Report](https://placehold.co/280x180/FFF0F5/9B8ED4?text=Lab+Report) |
-
-| Dashboard | Breathing | Mood Tracker |
-|:---:|:---:|:---:|
-| ![Dashboard](https://placehold.co/280x180/F5EEFF/6B5CA5?text=Dashboard) | ![Breathe](https://placehold.co/280x180/EBF4FF/2D2350?text=Breathing) | ![Mood](https://placehold.co/280x180/FFF0F5/9B8ED4?text=Mood+Tracker) |
-
-*Replace placeholders with actual screenshots before publishing*
-
-</div>
+## 💬 Talk to Aasha — Your 24/7 Companion
+- AI trained in CBT & mindfulness principles  
+- Listens without judgment  
+- Responds in warm, short, grounded replies  
+- Crisis-aware and safety-first  
+- Available at 3am or 3pm  
 
 ---
 
-## 🎨 Design Language
+## 📋 Lab Report Interpreter
+Upload any blood test PDF and get:
 
-YouMatter's visual identity is built around **softness, warmth, and trust** — inspired by the logo's lavender-human and blue-AI silhouettes forming a heart together.
+- ✅ 50+ parameter extraction  
+- ✅ High / Low / Critical flagging  
+- ✅ Plain-English explanations  
+- ✅ 3 smart doctor questions  
+- ✅ Structured medical-safe output  
 
-```
-Colors ────────────────────────────────────────────────────
-  Primary Lavender   #C4B5F4   ████  Warmth, calm, human
-  Soft Blue          #93C5FD   ████  Technology, clarity
-  Blush Pink         #F4A8C0   ████  Empathy, care
-  Warm Peach         #FBBF9A   ████  Energy, optimism
-  Deep Navy          #2D2350   ████  Stability, trust
-
-Typography ────────────────────────────────────────────────
-  Display  →  Playfair Display (emotional, editorial)
-  Body     →  Nunito (warm, friendly, highly readable)
-
-Shapes ────────────────────────────────────────────────────
-  Pill buttons · Cloud-like cards · Glass morphism surfaces
-  No sharp corners. Anywhere. Ever.
-```
+No diagnosis. No fear-mongering. Just clarity.
 
 ---
 
-## 🛠️ Tech Stack
+## 🌬️ Guided Breathing
+Animated nervous-system reset exercises:
 
-| Layer | Technology | Why |
-|---|---|---|
-| **Frontend** | React js | SSR, type safety, production-ready |
-| **Styling** | Tailwind CSS | Utility-first, rapid UI, responsive |
-| **Auth** | Supabase Auth (Magic Link) | No passwords, frictionless onboarding |
-| **Database** | Supabase PostgreSQL + RLS | Free tier, row-level security by default |
-| **File Storage** | Supabase Storage | Private PDF storage, 1GB free |
-| **PDF Parsing** | pdf-parse / PyMuPDF | Extract lab parameters server-side |
-| **AI Core** | Anthropic Claude API (claude-haiku) | Fast, accurate, empathetic responses |
-| **Hosting** | Vercel | Free tier, auto CI/CD, edge network |
-| **Analytics** | PostHog (free tier) | Privacy-first user analytics |
+- Box Breathing  
+- 4-7-8 Method  
+- Deep Calm  
 
-> 💡 **Total infrastructure cost for MVP: $0.** Built entirely on free tiers.
+No app download. Just breathe.
 
 ---
 
-## 🏗️ Project Structure
-
-```
-youmatter/
-├── app/                          # Next.js App Router
-│   ├── layout.tsx                # Root layout + fonts
-│   ├── page.tsx                  # Landing page
-│   ├── auth/page.tsx             # Magic link auth
-│   └── dashboard/
-│       ├── layout.tsx            # Dashboard shell (sidebar + topbar)
-│       ├── page.tsx              # Home dashboard
-│       ├── chat/[id]/page.tsx    # Aasha chat interface
-│       ├── breathe/page.tsx      # Guided breathing
-│       ├── journal/page.tsx      # Mood journal
-│       ├── mood/page.tsx         # Mood tracker
-│       └── reports/[id]/page.tsx # Lab report detail
-│
-├── components/
-│   ├── layout/                   # Sidebar, Navbar, BottomNav
-│   ├── ui/                       # Button, Card, Badge, Modal
-│   ├── chat/                     # ChatBubble, TypingIndicator, CrisisPanel
-│   ├── lab/                      # ParameterCard, ReportSummary, UploadZone
-│   ├── mood/                     # MoodOrb, MoodHistory, MoodCheckIn
-│   ├── breathe/                  # BreathingCircle (animated SVG)
-│   └── landing/                  # Hero, Features, HowItWorks, Footer
-│
-├── lib/
-│   ├── supabase.ts               # Supabase client
-│   ├── claude.ts                 # Anthropic API helpers
-│   ├── pdfParser.ts              # PDF extraction logic
-│   ├── mockData.ts               # Dev mock data
-│   └── types.ts                  # TypeScript interfaces
-│
-├── supabase/
-│   └── schema.sql                # Full DB schema with RLS policies
-│
-└── public/
-    └── logo.png                  # YouMatter logo
-```
+## 📓 Mood Journal
+- Private encrypted entries  
+- Tag emotions  
+- Track patterns  
+- Reflect safely  
 
 ---
 
-## 🚀 Getting Started
+## 📊 Mood Tracker
+Visualize emotional trends over:
+- Days  
+- Weeks  
+- Months  
 
-### Prerequisites
-
-- Node.js 18+
-- A Supabase account (free) → [supabase.com](https://supabase.com)
-- An Anthropic API key → [console.anthropic.com](https://console.anthropic.com)
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/a4e-team/youmatter.git
-cd youmatter
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-
-## 🤖 AI Prompt Architecture
-
-YouMatter uses two core AI prompts, carefully engineered for safety and empathy:
-
-### Aasha — Mental Health Companion
-
-```
-System: You are Aasha, a compassionate AI mental health companion.
-You are trained in CBT and mindfulness. You listen, validate, and guide.
-
-Rules:
-- Never diagnose. Never prescribe.
-- On crisis signals → immediately surface iCall (9152987821)
-  and Vandrevala Foundation (1860-2662-345)
-- Keep responses warm, 2-4 sentences, end with an open question
-- Ground responses in evidence-based techniques
-```
-
-### Lab Report Interpreter
-
-```
-System: You are a medical lab report interpreter.
-
-Output: Structured JSON with:
-  - parameters[]: name, value, unit, range, status, plain-English explanation
-  - summary: 3-sentence overview in simple language
-  - doctor_questions: 3 questions to ask at next appointment
-
-Rules:
-- Never diagnose. Always "consult your doctor."
-- Flag critical values clearly but calmly
-- Output ONLY valid JSON
-```
+Aasha gently notices patterns and checks in when needed.
 
 ---
 
-## 🛡️ Safety & Privacy
+## 🆘 Built-in Crisis Support
 
-YouMatter was built with safety as a first principle, not an afterthought.
-
-- 🔒 **End-to-end data isolation** — Supabase RLS ensures users only ever see their own data
-- 🚫 **Zero data selling** — we never monetize user health data
-- 🆘 **Crisis detection** — keyword monitoring surfaces emergency resources immediately
-- 📋 **Clear disclaimers** — every AI output is clearly labelled as non-medical advice
-- 🗂️ **Private PDF storage** — lab reports stored in private Supabase buckets, never public
-- ⚖️ **Terms & Privacy** — full legal coverage via Termly (free tier)
-
-**Emergency Resources (always accessible):**
+Smart crisis keyword detection instantly surfaces:
 
 | Helpline | Number |
-|---|---|
+|-----------|---------|
 | iCall (India) | 9152987821 |
 | Vandrevala Foundation | 1860-2662-345 |
 | Snehi | 044-24640050 |
 | NIMHANS | 080-46110007 |
 
----
-
-## 📅 4-Week Roadmap
-
-```
-Week 1  ████████░░░░░░░░░░░░  Foundation
-        Supabase setup · Auth · DB schema · Next.js scaffold · PDF pipeline
-
-Week 2  ░░░░████████░░░░░░░░  Core AI Features
-        Lab report AI · Aasha chat + streaming · Dashboard build
-
-Week 3  ░░░░░░░░████████░░░░  Polish & Safety
-        Mobile responsive · Crisis detection · Breathing · Journal
-
-Week 4  ░░░░░░░░░░░░████████  Ship 🚀
-        Deploy · ProductHunt · College network · Clinic outreach
-        Target: 100–200 users
-```
+You are never alone. We make sure of it.
 
 ---
 
-## 👥 Team
+# 🎨 Design Philosophy
 
-Built with 💙 by 7 pre-final year CSE-AIML students from **Haldia Institute of Technology** as part of the **A4E (AI for Everyone)** initiative.
+YouMatter’s visual identity is built on:
 
-| Role | Responsibility |
-|---|---|
-| Tech Lead | Architecture · Code Review · API Keys · Supabase |
-| Frontend (×2) | Next.js · Components · Tailwind · Animations |
-| AI / Backend (×2) | Claude API · PDF Parsing · Vercel Functions |
-| Design + Mobile | Figma · Responsive UI · UX Flows |
-| Growth + QA | Testing · Analytics · Community · Social Media |
+💜 Softness  
+💙 Warmth  
+💗 Empathy  
+🫶 Trust  
 
----
+Inspired by the logo’s lavender-human and blue-AI silhouettes forming a heart.
 
-## 🤝 Contributing
+### 🎨 Color Palette
 
-We welcome contributions from anyone who cares about mental health and accessible healthcare.
+| Color | Hex | Meaning |
+|-------|------|----------|
+| Primary Lavender | #C4B5F4 | Human warmth |
+| Soft Blue | #93C5FD | AI clarity |
+| Blush Pink | #F4A8C0 | Empathy |
+| Warm Peach | #FBBF9A | Energy |
+| Deep Navy | #2D2350 | Stability |
 
-```bash
-# Fork the repo
-# Create your feature branch
-git checkout -b feature/your-amazing-feature
+### 🖋 Typography
+- **Display:** Playfair Display  
+- **Body:** Nunito  
 
-# Commit your changes
-git commit -m "Add: your amazing feature"
-
-# Push and open a Pull Request
-git push origin feature/your-amazing-feature
-```
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for our code of conduct and contribution guidelines.
-
----
-
-## 📊 KPIs & Metrics
-
-We track the following (via PostHog, privacy-first):
-
-- Daily Active Users
-- Lab Reports Uploaded
-- Chat Sessions Started (total + per user)
-- Breathing Sessions Completed
-- Journal Entries Written
-- Crisis Panel Views (anonymized)
-
-**Month 1 Target: 100–200 users**
+### 🧩 UI Principles
+- No sharp corners. Anywhere. Ever.  
+- Pill buttons  
+- Cloud-like cards  
+- Glass morphism  
+- Mobile-first design  
 
 ---
 
-## 📄 License
+# 🛠️ Tech Stack
 
-This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.
+| Layer | Technology | Why |
+|--------|------------|-----|
+| Frontend | Next.js 14 + TypeScript | SSR + production ready |
+| Styling | Tailwind CSS | Fast UI development |
+| Auth | Supabase Magic Link | Passwordless login |
+| Database | Supabase PostgreSQL + RLS | Secure by default |
+| Storage | Supabase Storage | Private PDFs |
+| PDF Parsing | pdf-parse / PyMuPDF | Server-side extraction |
+| AI Core | Anthropic Claude (Haiku) | Fast + empathetic |
+| Hosting | Vercel | CI/CD + Edge |
+| Analytics | PostHog | Privacy-first |
+
+💡 **Total MVP Infrastructure Cost: $0**
 
 ---
 
-## ⚠️ Disclaimer
-
-> YouMatter is **not a medical device** and does not provide medical advice, diagnosis, or treatment. All AI-generated content is for educational and informational purposes only. Always consult a qualified healthcare professional before making any health-related decisions. In case of a mental health emergency, please contact your local emergency services or a crisis helpline immediately.
+# 🏗️ Project Structure
+youmatter/
+├── app/
+├── components/
+├── lib/
+├── supabase/
+└── public/
 
 ---
 
+# 🤖 AI Prompt Architecture
 
+## Aasha — Mental Health Companion
+
+**Rules:**
+- Never diagnose  
+- Never prescribe  
+- 2–4 sentence warm replies  
+- End with an open question  
+- Crisis keywords → show helplines immediately  
+- Ground responses in CBT & mindfulness  
+
+---
+
+## Lab Report Interpreter
+
+**Output Format (Strict JSON):**
+
+```json
+{
+  "parameters": [
+    {
+      "name": "",
+      "value": "",
+      "unit": "",
+      "range": "",
+      "status": "",
+      "explanation": ""
+    }
+  ],
+  "summary": "",
+  "doctor_questions": []
+}
+Rules:
+
+No diagnosis
+Always say “Consult your doctor”
+Calm tone for critical values
+JSON only output
+🔒 Safety & Privacy
+✅ Supabase Row-Level Security
+✅ Zero health data selling
+✅ Private PDF buckets
+✅ AI clearly labeled as non-medical
+✅ Crisis detection built-in
+✅ Legal coverage via Termly
+
+Privacy-first. Always.
+
+🚀 Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/a4e-team/youmatter.git
+cd youmatter
+2️⃣ Install dependencies
+npm install
+3️⃣ Configure environment variables
+Create .env.local:
+npm run dev
+Visit:
+http://localhost:3000
+📈 KPIs
+Daily Active Users
+Lab Reports Uploaded
+Chat Sessions Started
+Breathing Sessions Completed
+Journal Entries Written
+Crisis Panel Views
+🎯 Month 1 Target: 100–200 users
+
+👥 Team — A4E Initiative
+Built with 💙 by 7 pre-final year CSE-AIML students
+Haldia Institute of Technology
+
+Name	Role
+Aishwarya Shree	Project Lead, AI & Architecture
+Harshita Smriti	Backend & Database
+Simran Patel	Frontend
+Ankita Kumari	Frontend
+Rounit Raj Singh	Frontend
+Neeraj Kumar	Testing & QA
+Supriya Jana	Content & Support
+🤝 Contributing
+git checkout -b feature/amazing-feature
+git commit -m "Add: amazing feature"
+git push origin feature/amazing-feature
+pen a Pull Request 💙
+
+⚠️ Disclaimer
+YouMatter is not a medical device and does not provide medical advice, diagnosis, or treatment. All AI-generated content is informational only. Always consult a licensed healthcare professional.
+
+If in immediate danger, contact emergency services.
+
+🌐 Live Application
+👉 https://you-matter-frontend-six.vercel.app/
+
+Made with 💙 by the A4E Team
+“Taking care of your mind is the bravest thing you can do.”
