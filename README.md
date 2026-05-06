@@ -172,11 +172,16 @@ Rules:
   "summary": "",
   "doctor_questions": []
 }
-Rules:
+```
+
+### Rules
+
 - No diagnosis  
-- Always say “Consult your doctor”  
-- Calm tone for critical values  
-- JSON only output  
+- Always say **“Consult your doctor.”**  
+- Maintain a calm tone for critical values  
+- Output must be **valid JSON only**  
+- Do not include extra commentary outside the JSON  
+- Flag abnormal values clearly but without alarmist language  
 
 ---
 
@@ -184,13 +189,19 @@ Rules:
 
 ✅ Supabase Row-Level Security  
 ✅ Zero health data selling  
-✅ Private PDF buckets  
+✅ Private PDF storage buckets  
 ✅ AI clearly labeled as non-medical  
 ✅ Crisis detection built-in  
 ✅ Legal coverage via Termly  
 
 Privacy-first. Always.
 
+
+## 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/a4e-team/youmatter.git
+cd youmatter
 ---
 
 # 🚀 Getting Started
@@ -200,3 +211,93 @@ Privacy-first. Always.
 ```bash
 git clone https://github.com/a4e-team/youmatter.git
 cd youmatter
+```
+
+## 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+## 3️⃣ Configure environment variables
+
+Create a `.env.local` file in the root folder:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+ANTHROPIC_API_KEY=
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+```
+
+## 4️⃣ Run development server
+
+```bash
+npm run dev
+```
+
+Visit:
+
+http://localhost:3000
+
+---
+
+# 📈 KPIs
+
+- Daily Active Users  
+- Lab Reports Uploaded  
+- Chat Sessions Started  
+- Breathing Sessions Completed  
+- Journal Entries Written  
+- Crisis Panel Views  
+
+🎯 Month 1 Target: 100–200 users  
+
+---
+
+# 👥 Team — A4E Initiative
+
+Built with 💙 by 7 pre-final year CSE-AIML students  
+Haldia Institute of Technology  
+
+| Name | Role |
+|------|------|
+| Aishwarya Shree | Project Lead, AI & Architecture |
+| Harshita Smriti | Backend & Database |
+| Simran Patel | Frontend |
+| Ankita Kumari | Frontend |
+| Rounit Raj Singh | Frontend |
+| Neeraj Kumar | Testing & QA |
+| Supriya Jana | Content & Support |
+
+---
+
+# 🤝 Contributing
+
+```bash
+git checkout -b feature/amazing-feature
+git commit -m "Add: amazing feature"
+git push origin feature/amazing-feature
+```
+
+Open a Pull Request 💙
+
+---
+
+# ⚠️ Disclaimer
+
+YouMatter is not a medical device and does not provide medical advice, diagnosis, or treatment. All AI-generated content is for informational purposes only. Always consult a licensed healthcare professional.
+
+If in immediate danger, contact emergency services.
+
+---
+
+# 🌐 Live Application
+
+👉 https://you-matter-frontend-six.vercel.app/
+
+---
+
+Made with 💙 by the A4E Team  
+“Taking care of your mind is the bravest thing you can do.”
