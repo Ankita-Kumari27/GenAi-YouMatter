@@ -21,9 +21,6 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-youmatter.app-C4B5F4?style=for-the-badge&labelColor=2D2350)](https://youmatter.app)
-[![License](https://img.shields.io/badge/License-MIT-93C5FD?style=for-the-badge&labelColor=2D2350)](LICENSE)
-[![Welcome](https://img.shields.io/badge/PRs-welcome-FBBF9A?style=for-the-badge&labelColor=2D2350)](CONTRIBUTING.md)
 
 <br/>
 
