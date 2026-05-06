@@ -172,3 +172,19 @@ Rules:
   "summary": "",
   "doctor_questions": []
 }
+Rules:
+
+No diagnosis
+Always say “Consult your doctor”
+Calm tone for critical values
+JSON only output
+🔒 Safety & Privacy
+✅ Supabase Row-Level Security
+✅ Zero health data selling
+✅ Private PDF buckets
+✅ AI clearly labeled as non-medical
+✅ Crisis detection built-in
+✅ Legal coverage via Termly
+
+Privacy-first. Always.
+
