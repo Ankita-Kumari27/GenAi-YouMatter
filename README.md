@@ -173,18 +173,33 @@ Rules:
   "doctor_questions": []
 }
 Rules:
+- No diagnosis  
+- Always say “Consult your doctor”  
+- Calm tone for critical values  
+- JSON only output  
 
-No diagnosis
-Always say “Consult your doctor”
-Calm tone for critical values
-JSON only output
-🔒 Safety & Privacy
-✅ Supabase Row-Level Security
-✅ Zero health data selling
-✅ Private PDF buckets
-✅ AI clearly labeled as non-medical
-✅ Crisis detection built-in
-✅ Legal coverage via Termly
+---
+
+# 🔒 Safety & Privacy
+
+✅ Supabase Row-Level Security  
+✅ Zero health data selling  
+✅ Private PDF buckets  
+✅ AI clearly labeled as non-medical  
+✅ Crisis detection built-in  
+✅ Legal coverage via Termly  
+
+Privacy-first. Always.
+
+---
+
+# 🚀 Getting Started
+
+## 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/a4e-team/youmatter.git
+cd youmatter
 
 Privacy-first. Always.
 
