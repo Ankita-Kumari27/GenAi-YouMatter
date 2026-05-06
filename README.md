@@ -130,3 +130,45 @@ Softness. Warmth. Empathy. Trust.
 ---
 
 # 🏗️ Project Structure
+youmatter/
+├── app/
+├── components/
+├── lib/
+├── supabase/
+└── public/
+
+---
+
+# 🤖 AI Prompt Architecture
+
+## Aasha — Mental Health Companion
+
+Rules:
+- Never diagnose  
+- Never prescribe  
+- 2–4 sentence warm replies  
+- End with an open question  
+- Crisis keywords → show helplines immediately  
+- Ground responses in CBT & mindfulness  
+
+---
+
+## Lab Report Interpreter
+
+**Output Format (Strict JSON)**
+
+```json
+{
+  "parameters": [
+    {
+      "name": "",
+      "value": "",
+      "unit": "",
+      "range": "",
+      "status": "",
+      "explanation": ""
+    }
+  ],
+  "summary": "",
+  "doctor_questions": []
+}
