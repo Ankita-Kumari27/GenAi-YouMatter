@@ -1,13 +1,21 @@
-
-
 import { useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Loader2, Lock, Eye, EyeOff } from "lucide-react";
+
+import {
+  Loader2,
+  Lock,
+  Eye,
+  EyeOff,
+  ArrowLeft,
+} from "lucide-react";
+
+import { Link } from "react-router-dom";
 
 const ResetPassword = () => {
   const [password, setPassword] = useState("");
+
   const [confirmPassword, setConfirmPassword] =
     useState("");
 
@@ -49,13 +57,23 @@ const ResetPassword = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 cloud-bg">
-      <div className="glass-card-strong rounded-3xl p-6 sm:p-8 max-w-md w-full">
-        <h1 className="text-2xl font-bold mb-2">
+    <div className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-pink-100 via-white to-purple-100 dark:from-[#0f172a] dark:via-[#111827] dark:to-[#1e1b4b] transition-all duration-500">
+
+      <div className="w-full max-w-md rounded-3xl bg-white/70 dark:bg-[#111827]/80 backdrop-blur-xl shadow-2xl p-6 sm:p-8 animate-in fade-in duration-500">
+
+        <Link
+          to="/auth"
+          className="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-pink-500 mb-6 transition-all"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Back
+        </Link>
+
+        <h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">
           Reset Password
         </h1>
 
-        <p className="text-muted-foreground text-sm mb-6">
+        <p className="text-sm text-gray-500 dark:text-gray-300 mb-6">
           Enter your new password below.
         </p>
 
@@ -63,8 +81,11 @@ const ResetPassword = () => {
           onSubmit={handleResetPassword}
           className="space-y-4"
         >
+
+          {/* PASSWORD */}
           <div className="relative">
-            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+
+            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
 
             <Input
               type={showPassword ? "text" : "password"}
@@ -73,7 +94,7 @@ const ResetPassword = () => {
               onChange={(e) =>
                 setPassword(e.target.value)
               }
-              className="pl-10 pr-10 rounded-xl"
+              className="pl-10 pr-10 h-12 rounded-2xl"
               required
             />
 
@@ -82,7 +103,7 @@ const ResetPassword = () => {
               onClick={() =>
                 setShowPassword(!showPassword)
               }
-              className="absolute right-3 top-1/2 -translate-y-1/2"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400"
             >
               {showPassword ? (
                 <EyeOff className="h-4 w-4" />
@@ -92,8 +113,10 @@ const ResetPassword = () => {
             </button>
           </div>
 
+          {/* CONFIRM PASSWORD */}
           <div className="relative">
-            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+
+            <Lock className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
 
             <Input
               type={
@@ -108,7 +131,7 @@ const ResetPassword = () => {
                   e.target.value
                 )
               }
-              className="pl-10 pr-10 rounded-xl"
+              className="pl-10 pr-10 h-12 rounded-2xl"
               required
             />
 
@@ -119,7 +142,7 @@ const ResetPassword = () => {
                   !showConfirmPassword
                 )
               }
-              className="absolute right-3 top-1/2 -translate-y-1/2"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400"
             >
               {showConfirmPassword ? (
                 <EyeOff className="h-4 w-4" />
@@ -129,15 +152,17 @@ const ResetPassword = () => {
             </button>
           </div>
 
+          {/* MESSAGE */}
           {message && (
-            <p className="text-sm text-center">
+            <div className="text-sm text-center rounded-2xl p-3 bg-pink-100 dark:bg-pink-900/20 text-pink-600 dark:text-pink-300">
               {message}
-            </p>
+            </div>
           )}
 
+          {/* BUTTON */}
           <Button
             type="submit"
-            className="w-full"
+            className="w-full h-12 rounded-2xl bg-pink-500 hover:bg-pink-600 transition-all duration-300"
             disabled={loading}
           >
             {loading ? (
@@ -153,4 +178,3 @@ const ResetPassword = () => {
 };
 
 export default ResetPassword;
-
